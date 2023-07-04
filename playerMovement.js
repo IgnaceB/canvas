@@ -3,7 +3,7 @@ let johnny=entities.johnny
 let canvas = document.getElementById('tutorial');
 
 const right=()=>{
-  console.log(johnny.positionX)
+
   if (johnny.center[0]<window.innerWidth){
     johnny.positionX=johnny.positionX+johnny.vitesse
 
@@ -28,7 +28,7 @@ const up=()=>{
   }
 }
 const down=()=>{
-  console.log(window.innerHeight)
+ 
   if (johnny.center[1]<window.innerHeight){
     johnny.positionY=johnny.positionY+johnny.vitesse
 
